@@ -36,7 +36,7 @@ src/main/resources/
 
 ### 1. Tambah Data KTP
 *   **Method** : `POST`
-*   **URL** : `/ktp`
+*   **URL** : `http://localhost:8080/ktp`
 *   **Request Body** :
 ```json
 {
@@ -65,17 +65,17 @@ src/main/resources/
 
 ### 2. Ambil Semua Data KTP
 * **Method** : `GET`
-* **URL** : `/ktp`
+* **URL** : `http://localhost:8080/ktp`
 * **Respon** : `List<KtpDto>` dalam format JSON.
 
 ### 3. Ambil Data Berdasarkan ID
 * **Method** : `GET`
-* **URL** : `/ktp/{id}`
+* **URL** : `http://localhost:8080/ktp/{id}`
 * **Contoh** : `http://localhost:8080/ktp/4`
 
 ### 4. Perbarui Data KTP
 * **Method** : `PUT`
-* **URL** : `/ktp/{id}`
+* **URL** : `http://localhost:8080/ktp/{id}`
 * **Respon Sukses** :
 
 ````   JSON
@@ -92,7 +92,7 @@ src/main/resources/
    ````
 ### 5. Hapus Data KTP
 * **Method** : `DELETE`
-* **URL**  : `/ktp/{id}`
+* **URL**  : `http://localhost:8080/ktp/{id}`
 * **Respon Sukses** :
 
 ```JSON
